@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="HELLO FIRSTNAME LASTNAME"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="93dp"
+            android:text="Profile setup" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button4"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="175dp"
+            android:text="My friend" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="206dp"
+            android:text="sign out" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="48dp"
+            android:text="This is my qoute Today is my day" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
